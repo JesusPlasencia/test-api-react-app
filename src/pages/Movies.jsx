@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getPopularMovies, getTopRatedMovies, getUpcomingMovies } from '../services/services';
 
-const Home = () => {
+const Movies = () => {
 
     const [popularMovies, setPopularMovies] = useState([]);
     // const [topRatedMovies, setTopRatedMovies] = useState([]);
@@ -35,4 +35,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Movies;

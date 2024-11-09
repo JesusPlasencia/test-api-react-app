@@ -4,7 +4,7 @@ import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-d
 import Layout from './components/Layout';
 
 // Pages
-import Home from './pages/Home';
+import Movies from './pages/Movies';
 import Shows from './pages/Shows';
 import Tv from './pages/Tv';
 
@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Routes>
         <Route element={<Layout />}>
-          <Route path='/' element={<Home/>} />
+          <Route path='/' element={<Movies/>} />
           <Route path='/shows' element={<Shows/>} />
           <Route path='/tv' element={<Tv/>} />
         </Route>
